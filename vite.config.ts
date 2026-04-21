@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'https://smart-expense-tracker-2328.onrender.com',
         changeOrigin: true,
       },
     },
